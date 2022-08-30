@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+
+    background-repeat: no-repeat;
+    height: 60px;
+    background-color: rgb(251, 249, 249);
+}
+.logo-scritta{
+    display: inline-block;
+    margin: auto;
+    text-align: cente;
+
+}
+body{
+    background-color: rgb(209, 230, 245);
+}
+
+/* contenitore principale */
+.main-conteiner{
+margin: 50px auto;
+width: 1000px;
+background-color: white;
+border-radius: 20px;
+
+}
+/* barra di navigazione */
+.nav-bar{
+    width: 1000px;
+    height: 60px;
+    border-bottom: 2px solid rgb(209, 230, 245);  ;
+
+}
+
+.botton-task{
+    padding: 8px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.botton1{
+    background-color: rgb(36, 191, 243);
+    color: white;
+    border-radius: 5px ;
+    border: 2px solid white;
+
+}
+.botton2{
+    color: rgb(185, 182, 182);
+    border-radius: 5px;
+    border: 2px solid rgb(162, 160, 160);
+    background-color: transparent;
+
+}
+/* parte centrale */
+
+/* cerchi giusti generci */
+.circle-true{
+    border: 2px solid green;
+    border-radius: 50%;
+
+}
+/* cerchi sbaliati */
+.circle-false{
+    border: 2px solid rgb(221, 67, 28);
+    border-radius: 50%;
+    /* &#10060; */
+
+}
+
+
+
+/* cerchi intorno alle parole generci */
+.circle-text{
+    color: rgb(250, 250, 250);
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 3px;
+}
+/* cerchi colorati in questa senzione */
+.circle-color-blue {
+    background-color: rgb(59, 135, 248);
+    
+}
+.circle-color-viola{
+    background-color: rgb(98, 19, 172);
+}
+
+.circle-color-verde {
+    background-color: rgb(67, 145, 124);
+
+}
+    
+
+
+ 
+
+
+
+.new-task{
+    padding-top: 50px;
+    padding-left: 20px;
+    height: 150px;
+}
+
+.today{
+    margin-left: 20px;
+    height: 150px;
+ 
+}
+
+
+/* parte centrale lista */
+.lista{
+    list-style-type: none;
+}
