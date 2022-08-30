@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo{
@@ -9,7 +10,7 @@
     background-repeat: no-repeat;
     height: 60px;
     background-color: rgb(251, 249, 249);
-    display: flex;
+    vertical-align: middle;
             
 }
 .logo-scritta{
