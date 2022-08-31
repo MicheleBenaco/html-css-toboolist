@@ -17,6 +17,7 @@
     display: inline-block;
     margin: auto;
     
+    
 
 }
 body{
@@ -112,7 +113,7 @@ border-radius: 20px;
 
 .today{
     margin-left: 20px;
-    height: 150px;
+    height: 200px;
  
 }
 
@@ -120,4 +121,8 @@ border-radius: 20px;
 /* parte centrale lista */
 .lista{
     list-style-type: none;
+}
+
+li{
+    margin-top: 10px;
 }
